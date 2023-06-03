@@ -27,6 +27,7 @@ public class SeleniumTest {
     public void 크롬을_통해_제가만든_두둥에_접속한다() throws InterruptedException {
         driver = new ChromeDriver();
         js = (JavascriptExecutor) driver;
+        // 파일 수정
 
         driver.get("https://dudoong.com/");
         driver.manage().window().setSize(new Dimension(1552, 840));
