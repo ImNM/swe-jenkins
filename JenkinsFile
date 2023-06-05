@@ -12,6 +12,7 @@ pipeline {
             steps {
                 sh 'ls -al'
             }
+
         }
         stage('mvn test') {
             steps {
